@@ -1,0 +1,19 @@
+2026-10-02 20:00:30.324: [INFO] CurrentProfilePath: D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-02 20:00:30.324: [INFO] Profiles total count: 1
+2026-10-02 20:00:30.324: [INFO] Profile: name=Profile 1 path=D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-10-02 20:00:30.324: [INFO] LastUsedProfileDir: D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-02 20:00:30.324: [INFO] OnDoneLoading sync enabled: 0
+2026-10-02 20:00:30.325: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-02 20:00:30.325: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-02 20:00:30.325: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-02 20:00:35.742: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-02 20:00:43.943: [INFO] CurrentProfilePath: D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-02 20:00:43.943: [INFO] Profiles total count: 1
+2026-10-02 20:00:43.943: [INFO] Profile: name=Profile 1 path=D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-02T20:00:31.554Z
+2026-10-02 20:00:43.943: [INFO] LastUsedProfileDir: D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-02 20:00:43.943: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\BE java\estate-hub\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-02T20:00:31.554Z
+2026-10-02 20:00:43.943: [INFO] OnDoneLoading sync enabled: 0
+2026-10-02 20:00:43.943: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-02 20:00:43.943: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-02 20:00:43.943: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-02 20:01:47.172: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

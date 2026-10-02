@@ -20,7 +20,7 @@ public class BuildingServiceImpl implements BuildingService {
 	@Override
 	public List<BuildingDTO> getAllBuilding(String name, String districtId, List<String> type) {
 		
-		List<BuildingEntity> buildingEntities = buildingRepository.findAll(name);
+		List<BuildingEntity> buildingEntities = buildingRepository.findAll(name, districtId, type);
 		List<BuildingDTO> result = new ArrayList<BuildingDTO>();
 		
 		for (BuildingEntity item: buildingEntities) {

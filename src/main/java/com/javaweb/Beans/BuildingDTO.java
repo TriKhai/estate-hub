@@ -1,6 +1,8 @@
 package com.javaweb.Beans;
 
 public class BuildingDTO {
+	private Long id;
+	private Integer rentPrice;
 	private String name;
 	private Integer numberOfBasement;
 	private String address;
@@ -23,6 +25,18 @@ public class BuildingDTO {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public Integer getRentPrice() {
+		return rentPrice;
+	}
+	public void setRentPrice(Integer rentPrice) {
+		this.rentPrice = rentPrice;
 	}
 
 	

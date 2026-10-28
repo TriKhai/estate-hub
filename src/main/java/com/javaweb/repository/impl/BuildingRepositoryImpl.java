@@ -21,9 +21,6 @@ import com.javaweb.utils.ConnectionUtils;
 public class BuildingRepositoryImpl implements BuildingRepository {
 	
 	// Kết nối database
-//	static final String DB_URL = "jdbc:mysql://localhost:xxx/xxx";
-//	static final String USER = "";
-//	static final String PASS = "";
 	
 	// ResultSet => Entity
 	private BuildingEntity mapRow(ResultSet resultSet) throws SQLException {

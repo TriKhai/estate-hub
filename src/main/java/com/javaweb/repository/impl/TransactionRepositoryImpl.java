@@ -29,6 +29,7 @@ public class TransactionRepositoryImpl implements TransactionRepository {
 	    entity.setTypeId(rs.wasNull() ? null : typeId);
 
 	    entity.setNote(rs.getString("note"));
+        entity.setTypeName(rs.getString("typename"));
 
 	    Timestamp createdDate = rs.getTimestamp("createddate");
 	    entity.setCreatedDate(
@@ -40,10 +41,9 @@ public class TransactionRepositoryImpl implements TransactionRepository {
 	
 	@Override
 	public List<TransactionEntity> findByCustomerId(Long customerId) {
-		String sql = "SELECT id, customerid, type, note, createddate "
-					+ "FROM `transaction` "
-					+ "WHERE customerid = ? "
-					+ "ORDER BY createddate DESC, id DESC";
+        String sql = "SELECT t.id, t.customerid, t.type, t.note, t.createddate, tt.name AS typename "
+                + "FROM `transaction` t LEFT JOIN transactiontype tt ON tt.id = t.type "
+                + "WHERE t.customerid = ? ORDER BY t.createddate DESC, t.id DESC";
 		List<TransactionEntity> entities = new ArrayList<TransactionEntity>();
 		try (
 				Connection connection = ConnectionUtils.getConnection();

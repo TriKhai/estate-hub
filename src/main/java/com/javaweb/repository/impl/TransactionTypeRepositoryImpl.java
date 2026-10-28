@@ -57,8 +57,9 @@ public class TransactionTypeRepositoryImpl implements TransactionTypeRepository 
 				PreparedStatement statement = connection.prepareStatement(sql);
 			){
 			statement.setLong(1, id);
-			ResultSet rs = statement.executeQuery();
-			return rs.next();
+			try (ResultSet rs = statement.executeQuery()) {
+                return rs.next();
+            }
 			
 		} catch (SQLException exception) {
 			throw new IllegalStateException("Loi database", exception);

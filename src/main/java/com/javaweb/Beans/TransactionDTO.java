@@ -3,6 +3,9 @@ package com.javaweb.Beans;
 import java.time.LocalDateTime;
 
 public class TransactionDTO {
+    private String typeName;
+    public String getTypeName() { return typeName; }
+    public void setTypeName(String typeName) { this.typeName = typeName; }
     private Long id;
     private Long customerId;
     private Long typeId;
